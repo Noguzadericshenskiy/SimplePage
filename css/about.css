@@ -1,0 +1,128 @@
+.about__container {
+  padding-bottom: 50px;
+}
+
+.about__head {
+  padding-top: 50px;
+  margin-bottom: 49px;
+  max-width: 1235px
+}
+
+.head__header {
+  padding-left: 3px;
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #333333;
+}
+
+.head__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.about__content {
+  display: flex;
+}
+
+.content__left-blok {
+  display: flex;
+  min-width: 868px;
+  align-items: flex-end;
+  background-image: url(../img/about_worker.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 32px;
+}
+
+.content__footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 51px;
+  padding-right: 50px;
+  padding-top: 49px;
+  padding-bottom: 49px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: contain;
+}
+
+.left-blok__text {
+  display: inline-block;
+  padding-top: 2px;
+  max-width: 454px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #fff;
+}
+
+.about-btn {
+  width: 175px;
+  height: 60px;
+  padding-left: 36px;
+  padding-top: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  background: none;
+  border: 3px solid var(--color-n); 
+}
+
+.about-btn:hover {
+  background: var(--color-n);
+} 
+
+.about-btn:focus {
+  background: var(--color-n);
+}
+
+.about-btn:active {
+  border-color: var(--color-d);
+  background: var(--color-d);
+}
+
+.content__column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column__card:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+.column__card {
+  padding-top: 65px;
+  padding-right: 115px;
+  padding-bottom: 62px;
+  padding-left: 300px;
+  border: 1px solid #CACACA;
+  background-repeat: no-repeat;
+  background-position: 59px center;
+}
+
+.column__card-1 {
+  background-image: url(../img/about_card_cube.svg);
+}
+
+.column__card-2 {
+  background-image: url(../img/about_card_gear.svg);
+}
+
+.card__head {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+
+.card__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+}

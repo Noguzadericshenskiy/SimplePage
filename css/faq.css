@@ -1,0 +1,134 @@
+.faq__container {
+  padding-top: 54px;
+  padding-bottom: 99px;
+}
+
+.faq__header {
+  margin-bottom: 39px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.faq__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-button {
+  display: inherit;
+  padding: 30px 0;
+  background-color: inherit;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-top: 1px solid #CACACA;
+}
+
+.faq-button:last-child {
+  border-bottom: 1px solid #CACACA;
+}
+
+.item-head {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.head-symbol {
+  color: #CACACA;
+}
+
+.faq-icon {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #ECECEC;
+  border-radius: 50%;
+  color: var(--color-grey-l);
+  transition: transform .8s;
+}
+
+
+.faq-button:hover {
+  border-color: var(--color-n);
+  color: var(--color-n);
+}
+
+.faq-button:hover + .faq_button {
+  border-color: var(--color-n);
+}
+
+.faq-button:hover .head-symbol {
+  color: var(--color-n);
+}
+
+.faq-button:hover + .faq_button:last-child {
+  border-color: var(--color-n);
+  border-bottom: 1px solid #CACACA;
+}
+
+.faq-button:hover .faq-icon {
+  background-color: var(--color-n);
+}
+
+.faq-button:hover .faq-icon path{
+  fill: #fff;
+  stroke: #fff;
+} 
+
+.faq-button:focus {
+  border-color: var(--color-n);
+  color: var(--color-n);
+  outline: none;
+}
+
+.faq-button:focus + .faq_button {
+  border-color: var(--color-n);
+}
+
+.faq-button:focus .head-symbol {
+  color: var(--color-n);
+}
+
+.faq-button:focus + .faq_button:last-child {
+  border-color: var(--color-n);
+  border-bottom: 1px solid #CACACA;
+}
+
+.faq-button:focus .faq-icon {
+  background-color: var(--color-n);
+}
+
+.faq-button:focus .faq-icon path{
+  fill: #fff;
+  stroke: #fff;
+} 
+
+.faq-button:active {
+  border-color: #CACACA;
+  color: #333;
+  outline: none;
+} 
+
+.faq-button:active + .faq_button {
+  border-color: #CACACA;
+}
+
+.faq-button:active .head-symbol {
+  color: #CACACA;
+}
+
+.faq-button:active + .faq_button:last-child {
+  border-color: #CACACA;
+}
+
+.faq-button:active .faq-icon {
+  background-color: #CACACA;
+  transform: rotate(-90deg);
+} 
+
+.faq-button:active .faq-icon path{
+  fill: #000;
+  stroke: #000;
+} 

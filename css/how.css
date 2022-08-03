@@ -1,0 +1,95 @@
+.how__container {
+  padding-top: 53px;
+  padding-bottom: 50px;
+
+}
+
+.how__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteiner-hiader {
+  margin-bottom: 116px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.conteiner__blok-content {
+  flex-grow: unset;
+  width: 810px;
+  padding-right: 50px;
+}
+
+.wrapper_img {
+  flex-grow: unset;
+  flex-shrink: 2;
+  width: 870px;
+  background-image: url(../img/how_pc.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.blok-content__header {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.blok-content__text {
+  min-height: 320px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+
+.blok-content__buttons {
+  display: flex;
+}
+
+.how__btn-left {
+  margin-right: 32px;
+  width: 175px;
+  height: 60px;
+  padding-top: 21px;
+  padding-left: 39px;
+  line-height:  20px;
+  letter-spacing: 0.1px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.how__btn-right {
+  width: 147px;
+  height: 60px;
+  padding-top: 20px;
+  padding-left: 37px;
+  background: none;
+  border: 1px solid #333333;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+.how__btn-right:hover {
+  background-color: var(--color-grey-l);
+  border-color: var(--color-grey-l);
+  color: #fff;
+}
+
+.how__btn-right:focus {
+  border-color: var(--color-grey-l);
+  background-color: var(--color-grey-l);
+  color: #fff;
+}
+
+.how__btn-right:active {
+  background-color: #000;
+  color: #fff;
+}
